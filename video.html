@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Pembelajaran Web</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white min-h-screen flex flex-col items-center text-center px-4">
+
+  <!-- Header -->
+  <header class="mt-10 mb-8">
+    <h1 class="text-4xl font-extrabold drop-shadow-lg mb-2">🎥 Video Pembelajaran</h1>
+    <p class="text-white/90 max-w-2xl mx-auto">
+      Tonton video penjelasan mengenai HTML, CSS, JavaScript, dan Tailwind CSS secara langsung di halaman ini.
+    </p>
+  </header>
+
+  <!-- Navigasi -->
+  <nav class="flex flex-wrap justify-center gap-3 mb-10">
+    <a href="index.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">🏠 Beranda</a>
+    <a href="mengenal.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">📘 Mengenal</a>
+    <a href="tata-cara.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">💻 Tata Cara</a>
+    <a href="kesan-pesan.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">💬 Kesan & Pesan</a>
+    <a href="video.html" class="bg-white/30 px-4 py-2 rounded-xl border border-white/30 transition">🎥 Video</a>
+  </nav>
+
+  <!-- Konten Utama -->
+  <main class="w-full max-w-6xl bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl mb-10">
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- HTML Video -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-yellow-300">1️⃣ Belajar HTML</h2>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-lg">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/pQN-pnXPaVg" 
+            title="Belajar HTML" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- CSS Video -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-blue-300">2️⃣ Belajar CSS</h2>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-lg">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+            title="Belajar CSS" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- JavaScript Video -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-green-300">3️⃣ Belajar JavaScript</h2>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-lg">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/W6NZfCO5SIk"
+            title="Belajar JavaScript" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Tailwind CSS Video -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-pink-300">4️⃣ Belajar Tailwind CSS</h2>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-lg">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/ft30zcMlFao"
+            title="Belajar Tailwind CSS" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-sm text-white/80 my-8">
+    © 2025 | Dibuat dengan ❤️ oleh Christopher Yehuda Panjaitan
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mengenal HTML, CSS, JavaScript, dan Tailwind CSS</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white min-h-screen flex flex-col items-center text-center px-4">
+
+  <!-- Header -->
+  <header class="mt-10 mb-8">
+    <h1 class="text-4xl font-extrabold drop-shadow-lg mb-2">📘 Mengenal HTML, CSS, JavaScript, dan Tailwind CSS</h1>
+    <p class="text-white/90 max-w-2xl mx-auto">
+      Empat teknologi utama yang menjadi dasar dari pembuatan website modern.
+    </p>
+  </header>
+
+  <!-- Navigasi -->
+  <nav class="flex flex-wrap justify-center gap-3 mb-10">
+    <a href="index.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">🏠 Beranda</a>
+    <a href="mengenal.html" class="bg-white/30 px-4 py-2 rounded-xl border border-white/30 transition">📘 Mengenal</a>
+    <a href="tata-cara.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">💻 Tata Cara</a>
+    <a href="kesan-pesan.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">💬 Kesan & Pesan</a>
+    <a href="video.html" class="bg-white/20 hover:bg-white/40 px-4 py-2 rounded-xl transition">🎥 Video</a>
+  </nav>
+
+  <!-- Konten Utama -->
+  <main class="w-full max-w-5xl bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl text-left leading-relaxed">
+    <!-- HTML -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-3 text-yellow-300">1️⃣ HTML (HyperText Markup Language)</h2>
+      <p class="text-white/90 mb-3">
+        HTML adalah bahasa dasar untuk membangun struktur halaman web. Dengan HTML, kita dapat membuat elemen seperti teks, gambar, tautan, tabel, dan formulir.
+        HTML bekerja seperti kerangka dari sebuah bangunan.
+      </p>
+      <pre class="bg-black/40 p-3 rounded-lg text-sm overflow-x-auto"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Contoh HTML&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </section>
+
+    <!-- CSS -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-3 text-blue-300">2️⃣ CSS (Cascading Style Sheets)</h2>
+      <p class="text-white/90 mb-3">
+        CSS digunakan untuk memperindah tampilan website. Kita bisa mengatur warna, ukuran, posisi, dan animasi dari elemen HTML agar website tampak menarik dan konsisten.
+      </p>
+      <pre class="bg-black/40 p-3 rounded-lg text-sm overflow-x-auto"><code>h1 {
+  color: #4f46e5;
+  text-align: center;
+  font-size: 2rem;
+}</code></pre>
+      <p class="text-white/80 mt-2">
+        Contoh di atas akan mengubah warna teks, ukuran, dan posisi judul agar terlihat menarik.
+      </p>
+    </section>
+
+    <!-- JavaScript -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-3 text-green-300">3️⃣ JavaScript</h2>
+      <p class="text-white/90 mb-3">
+        JavaScript membuat website menjadi interaktif. Dengan JavaScript, kita bisa menambahkan fungsi seperti tombol yang bisa diklik, animasi, validasi form, dan banyak lagi.
+      </p>
+      <pre class="bg-black/40 p-3 rounded-lg text-sm overflow-x-auto"><code>&lt;button onclick="sapaPengguna()"&gt;Klik Aku&lt;/button&gt;
+&lt;script&gt;
+  function sapaPengguna() {
+    alert("Halo, Selamat Datang di Website Saya!");
+  }
+&lt;/script&gt;</code></pre>
+      <p class="text-white/80 mt-2">
+        Saat tombol diklik, JavaScript akan menjalankan fungsi yang menampilkan pesan.
+      </p>
+    </section>
+
+    <!-- Tailwind CSS -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3 text-pink-300">4️⃣ Tailwind CSS</h2>
+      <p class="text-white/90 mb-3">
+        Tailwind CSS adalah framework CSS yang membuat kita bisa mendesain tampilan dengan cepat menggunakan *utility classes*.  
+        Setiap class berfungsi langsung (misalnya untuk warna, margin, padding, atau animasi), tanpa perlu menulis CSS panjang.
+      </p>
+      <pre class="bg-black/40 p-3 rounded-lg text-sm overflow-x-auto"><code>&lt;button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"&gt;
+  Tombol Tailwind
+&lt;/button&gt;</code></pre>
+      <p class="text-white/80 mt-2">
+        Contoh di atas membuat tombol biru dengan efek hover hanya dengan satu baris kode.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-sm text-white/80 my-10">
+    © 2025 | Dibuat dengan ❤️ oleh [Namamu]
+  </footer>
+
+</body>
+</html>
